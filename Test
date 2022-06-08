@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+class Test
+{
+public static void main(String [] args)
+{
+Scanner input = new Scanner(System.in);
+System.out.println( "Please enter the grade"); 9 int grade=input.nextInt();
+System.out.println(grade<60 ? "bad":grade<85 ? "ok":"good!");
+ }}
